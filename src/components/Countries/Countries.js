@@ -12,7 +12,7 @@ const Countries = () => {
 
     return (
         <div>
-            <h1>All Countries from API </h1>
+            <h1 className='text-warning'>All Countries from API </h1>
             <h2>Total Countries: {countries.length}</h2>
             <div className='countries'>
             {
